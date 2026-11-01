@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <nav>
+            <span><img src="assets/images/logo.svg" alt=""></span>
+            <div class="flex">
+                <button class="btn">English</button>
+                <button class="btn-red">Sign in</button>
+            </div>
+        </nav>
+        <div class="box">
+        </div>
+        <div class="hero">
+            <span class="heading">Enjoy big movies, hit series and more from ₹ 149.</span>
+            <span class="heading1">Join today. Cancel anytime.</span>
+            <span class="heading2">Ready to watch? Enter your email to create or restart your membership.</span>
+            <div class="hbuttons">
+                <div><input type="text" placeholder="Email Address"></div>
+                <div><button class="btn-red-gt">Get Started &ThinSpace;&gt;</button></div>
+            </div>
+
+        </div>
+        <div class="seperation"></div>
+    </div>
+    <section>
+        <div class="trending">
+        <h1>Trending now</h1>
+        <ul>
+            <li><span class="rank">1</span><img src="https://occ-0-2590-3647.1.nflxso.net/dnm/api/v6/_YyUT33Ze3kFXjMydIZFIm6ajHk/AAAABS6Z6i2AXOHPJTBTIp5COCdZN92bY9RKKgU_30Zxt-gdL5JU0pOrmbGaZstzllsuauB1UHW4OGpR0bJQA6RUfyx26UMgMvupBCY.webp?r=dd2" alt="The Paradise"></li>
+            <li><span class="rank">2</span><img src="https://occ-0-2590-3647.1.nflxso.net/dnm/api/v6/_YyUT33Ze3kFXjMydIZFIm6ajHk/AAAABe3fxY63IAX9AP8HmXoCF16d8mlEedOGzcUEwG3v6ciImpJNxntsKRtAARX5LMJ2_cBU9cmWgdDxRoZpA_WerZBXWA3O32H_6V8.webp?r=992" alt="Ishq Vishk Rebound"></li>
+            <li><span class="rank">3</span><img src="https://occ-0-2590-3647.1.nflxso.net/dnm/api/v6/_YyUT33Ze3kFXjMydIZFIm6ajHk/AAAABZHnwfqphE_z6ZvQKfENixW2pkbXM14EGKgVu0f8RpJKohGGFacLjtelLGco2BcO4IGCo8rEtxkCRpskMWWCc9etJIFauuEuxUcIDqmDyCwFurmQF9hdXTKzoM1Vf938CsP1.webp?r=aa9" alt="Bajab Raat"></li>
+            <li><span class="rank">4</span><img src="https://occ-0-2590-3647.1.nflxso.net/dnm/api/v6/_YyUT33Ze3kFXjMydIZFIm6ajHk/AAAABchd2whzTSljNjE7YJNjWb2WJvWpgSxOX8lzEr3o250OcBbqqOB4jw1XwOls8EdY26bmhaxDTaahwIovX2HwbVz8O9ere7yoAMY.webp?r=137" alt="Chhota Bheem"></li>
+        </ul>
+        </div>
+        <div class="reasons">
+            <h1>More reasons to join</h1>
+            <div class="reason-cards">
+                <article class="reason-card">
+                    <div>
+                        <h2>Enjoy on your TV</h2>
+                        <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                    </div>
+                    <svg class="reason-icon tv-icon" viewBox="0 0 96 96" aria-hidden="true">
+                        <defs>
+                            <linearGradient id="tv-gradient" x1="0" x2="1" y1="0" y2="1">
+                                <stop offset="0" stop-color="#ff2e9a" />
+                                <stop offset="1" stop-color="#63169a" />
+                            </linearGradient>
+                        </defs>
+                        <rect x="17" y="21" width="62" height="42" rx="1" fill="#22103d" stroke="#d61c9b" />
+                        <ellipse cx="48" cy="41" rx="20" ry="17" fill="url(#tv-gradient)" opacity=".9" />
+                        <path d="M37 70h22M48 63v7M32 75h32" fill="none" stroke="#d72d8d" stroke-width="3" />
+                    </svg>
+                </article>
+                <article class="reason-card">
+                    <div>
+                        <h2>Download your shows to watch offline</h2>
+                        <p>Save your favourites easily and always have something to watch.</p>
+                    </div>
+                    <svg class="reason-icon download-icon" viewBox="0 0 96 96" aria-hidden="true">
+                        <circle cx="48" cy="48" r="29" fill="#ff7cc6" stroke="#771bc1" stroke-width="6" />
+                        <circle cx="48" cy="48" r="23" fill="none" stroke="#ffa4d9" stroke-width="3" />
+                        <path d="M48 27v34M36 49l12 12 12-12" fill="none" stroke="#b10b65" stroke-width="5" />
+                    </svg>
+                </article>
+                <article class="reason-card">
+                    <div>
+                        <h2>Watch everywhere</h2>
+                        <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+                    </div>
+                    <svg class="reason-icon watch-icon" viewBox="0 0 96 96" aria-hidden="true">
+                        <path d="m27 67 19-25 13 10-19 25c-3 4-9 4-13 1-4-3-4-8 0-11Z" fill="#9e176f" />
+                        <path d="m43 43 20-25 14 11-18 25Z" fill="#f52337" />
+                        <ellipse cx="70" cy="24" rx="12" ry="17" transform="rotate(-42 70 24)" fill="#ff75bf" stroke="#ffd0ed" stroke-width="2" />
+                        <path d="m20 23 2 6 6 2-6 2-2 6-2-6-6-2 6-2Z" fill="#ff3629" />
+                        <path d="m78 68 2 6 6 2-6 2-2 6-2-6-6-2 6-2Z" fill="#ff3629" />
+                    </svg>
+                </article>
+                <article class="reason-card">
+                    <div>
+                        <h2>Create profiles for kids</h2>
+                        <p>Send kids on adventures with their favourite characters in a space made just for them — free with your membership.</p>
+                    </div>
+                    <svg class="reason-icon kids-icon" viewBox="0 0 96 96" aria-hidden="true">
+                        <rect x="21" y="23" width="35" height="28" rx="5" fill="#ffadc9" />
+                        <circle cx="32" cy="35" r="2.5" fill="#511338" />
+                        <circle cx="45" cy="35" r="2.5" fill="#511338" />
+                        <path d="m38 52 7 9" stroke="#4c173c" stroke-width="3" />
+                        <rect x="43" y="42" width="34" height="31" rx="5" fill="#d51b63" />
+                        <circle cx="54" cy="53" r="2.5" fill="#fff" />
+                        <circle cx="67" cy="53" r="2.5" fill="#fff" />
+                        <path d="M53 62c5 4 11 4 16 0" fill="none" stroke="#fff" stroke-width="2" />
+                    </svg>
+                </article>
+            </div>
+        </div>
+
+        <div class="faq-section">
+            <h1>Frequently Asked Questions</h1>
+            <div class="faq-list">
+                <details class="faq-item">
+                    <summary>What is Netflix?</summary>
+                    <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies,
+                        anime, documentaries and more on thousands of internet-connected devices.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>How do I cancel?</summary>
+                    <p>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel
+                        your account online in two clicks.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>How much does Netflix cost?</summary>
+                    <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop or streaming device, all for one
+                        fixed monthly fee. Plans range from ₹149 to ₹649 a month.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>What can I watch on Netflix?</summary>
+                    <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning
+                        Netflix originals and more.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Where can I watch?</summary>
+                    <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web or
+                        through the Netflix app on your smart TV, smartphone, tablet, streaming media player and game
+                        console.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Is Netflix good for kids?</summary>
+                    <p>The Netflix Kids experience is included in your membership to give parents control while kids
+                        enjoy family-friendly shows and movies in their own space.</p>
+                </details>
+            </div>
+            <div class="faq-cta">
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="faq-form">
+                    <input type="email" placeholder="Email address" aria-label="Email address">
+                    <button class="btn-red-gt" type="button">Get Started <span aria-hidden="true">›</span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
